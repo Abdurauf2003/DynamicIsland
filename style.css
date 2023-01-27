@@ -14,7 +14,21 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #fff;
+    background: linear-gradient(45deg,#0000 calc(25%/3), #6de9c4 0 calc(50%/3),
+      #0000 0 calc(250%/3), #6de9c4 0 calc(275%/3),
+      #0000 0),linear-gradient( 45deg,#6de9c4 calc(25%/3), #0000 0 calc(50%/3),
+      #6de9c4 0 25%, #0000 0 75%,
+      #6de9c4 0 calc(250%/3), #0000 0 calc(275%/3),
+      #6de9c4 0),
+      linear-gradient(-45deg,#0000 calc(25%/3), #6de9c4 0 calc(50%/3),
+      #0000 0 calc(250%/3), #6de9c4 0 calc(275%/3),
+      #0000 0),linear-gradient(-45deg,#6de9c4 calc(25%/3), #0000 0 calc(50%/3),
+      #6de9c4 0 25%, #0000 0 75%,
+      #6de9c4 0 calc(250%/3), #0000 0 calc(275%/3),
+      #6de9c4 0)
+      #354c3c;
+background-size: 60px 60px;
+background-position: 0 0, 30px  30px;
 }
 
 .box {
